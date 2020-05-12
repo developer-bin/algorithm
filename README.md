@@ -1,2 +1,2 @@
-# algorithm
-algorithm study
+# 알고리즘 공부
+알고리즘 문제를 공부하며 작성한 코드입니다.
