@@ -34,6 +34,7 @@ void state(int s_idx, int e_idx) {
 	if (s[s_idx] == s[e_idx]) {
 		state(s_idx + 1, e_idx - 1);
 	}
+
 }
 
 int main() {
