@@ -28,7 +28,6 @@ int main() {
 
 	while (true) {
 		maps.clear();
-
 		cin >> c;
 
 		if (c == '#')break;
