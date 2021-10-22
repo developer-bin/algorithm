@@ -21,6 +21,7 @@ string s;
 bool check = false;
 
 void state(int s_idx, int e_idx) {
+
 	if (s_idx == e_idx) {
 		check = true;
 		return;
