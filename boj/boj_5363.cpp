@@ -28,9 +28,12 @@ int main() {
 
 	while (n--) {
 		string a, b;
+
 		cin >> a >> b;
 		cin.ignore();
+
 		string c;
+
 		getline(cin, c);
 		
 		cout << c << ' ' << a << ' ' << b << '\n';
