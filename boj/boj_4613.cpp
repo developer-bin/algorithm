@@ -26,7 +26,6 @@ int main() {
 
 	while (true) {
 		getline(cin, s);
-
 		if (s == "#")break;
 
 		int sum = 0;
