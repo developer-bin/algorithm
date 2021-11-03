@@ -28,6 +28,7 @@ int main() {
 	cin >> n;
 	while (n--) {
 		string s;
+
 		cin >> s;
 
 		if (s == "anj") {
