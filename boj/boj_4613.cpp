@@ -35,6 +35,7 @@ int main() {
 			if (s[i] == ' ') {
 				cnt++;
 				continue;
+
 			}
 
 			sum += (cnt++ * (s[i] - 'A' + 1));
