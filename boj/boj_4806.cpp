@@ -26,6 +26,7 @@ int main() {
 	cout.tie(NULL);
 
 	while (getline(cin, s)) {
+
 		n += 1;
 	}
 
