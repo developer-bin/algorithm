@@ -34,6 +34,7 @@ int main() {
 		}
 
 		int q_size = q.size();
+
 		while (q_size--) {
 			if (q.front() == 'a' || q.front() == 'e' || q.front() == 'i' || q.front() == 'o' || q.front() == 'u') {
 				break;
