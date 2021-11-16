@@ -45,10 +45,14 @@ int main() {
 		}
 
 		string ans_s;
+
 		while (!q.empty()) {
+
 			ans_s += q.front(); q.pop();
+
 		}
 
 		cout << ans_s << "ay\n";
+
 	}
 }
