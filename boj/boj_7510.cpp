@@ -37,6 +37,7 @@ int main() {
 
 		if ((a[0] * a[0] + a[1] * a[1]) == a[2] * a[2])cout << "yes\n";
 		else cout << "no\n";
+
 		cout << "\n";
 	}
 }
