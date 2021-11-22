@@ -30,6 +30,7 @@ int main() {
 		cin >> n;
 		
 		int min_num = MAX_VALUE, max_num = MIN_VALUE;
+
 		for (int i = 0; i < n; i++) {
 			int num;
 			cin >> num;
