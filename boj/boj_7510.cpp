@@ -26,6 +26,7 @@ int main() {
 	cout.tie(NULL);
 
 	cin >> n;
+
 	for (int i = 1; i <= n; i++) {
 		cout << "Scenario #" << i << ":\n";
 		
@@ -39,5 +40,6 @@ int main() {
 		else cout << "no\n";
 
 		cout << "\n";
+
 	}
 }
