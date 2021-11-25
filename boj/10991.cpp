@@ -16,14 +16,18 @@
 #define MAX_VALUE 200000000
 #define ll long long
 using namespace std;
+
 int n;
+
 int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
 	//init
+
 	//input
 	cin >> n;
+
 	//solve
 	for (int i = 1; i <= n; i++) {
 		for (int j = 1; j <= n - i; j++) {
