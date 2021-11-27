@@ -26,7 +26,6 @@ int main() {
 	cout.tie(NULL);
 
 	cin >> a >> b >> c;
-
 	if (a % 2 == 1) {
 		max_value = max(a, max_value);
 	}
