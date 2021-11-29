@@ -28,13 +28,17 @@ int main() {
 
 	cin >> a >> b >> c;
 	cin >> n;
+
 	for (int i = 1; i <= n; i++) {
 		int sum = 0;
 		int aa, bb, cc;
+
 		cin >> aa >> bb >> cc;
 		sum += (aa * a + bb * b + cc * c);
+
 		cin >> aa >> bb >> cc;
 		sum += (aa * a + bb * b + cc * c);
+
 		cin >> aa >> bb >> cc;
 		sum += (aa * a + bb * b + cc * c);
 
