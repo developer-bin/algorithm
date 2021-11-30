@@ -21,6 +21,7 @@ int a, b, c;
 int max_value = MIN_VALUE;
 
 int main() {
+
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
