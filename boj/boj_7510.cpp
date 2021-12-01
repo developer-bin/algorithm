@@ -21,6 +21,7 @@ int a[3];
 int n;
 
 int main() {
+
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
@@ -28,6 +29,7 @@ int main() {
 	cin >> n;
 
 	for (int i = 1; i <= n; i++) {
+
 		cout << "Scenario #" << i << ":\n";
 		
 		for (int j = 0; j < 3; j++) {
