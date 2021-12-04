@@ -25,14 +25,19 @@ int main() {
 	cout.tie(NULL);
 
 	cin >> t;
+
 	while (t--) {
 		cin >> n;
+
 		char c1, c2;
 		int c1_cnt = 0, c2_cnt = 0;
+
 		cin.ignore();
+
 		while (n--) {
 			cin >> c1;
 			cin.ignore();
+
 			cin >> c2;
 			cin.ignore();
 
