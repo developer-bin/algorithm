@@ -22,6 +22,7 @@ int n;
 int max_num = MIN_VALUE;
 
 int main() {
+
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
@@ -43,6 +44,7 @@ int main() {
 		sum += (aa * a + bb * b + cc * c);
 
 		max_num = max(max_num, sum);
+
 	}
 
 	cout << max_num;
