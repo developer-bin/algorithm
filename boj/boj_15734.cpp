@@ -27,12 +27,20 @@ int main() {
 	cin >> l >> r >> a;
 
 	if (abs(l - r) > a) {
+
 		cout << (min(l, r) + a) * 2;
+
 	}else if (abs(l - r) == 0) {
+
 		cout << l + r + (a / 2) * 2;
+
 	}else if (abs(l - r) < a) {
+
 		cout << max(l, r) * 2 + ((a - abs(l - r)) / 2) * 2;
+
 	}else if (abs(l - r) == a) {
+
 		cout << max(l, r) * 2;
+
 	}
 }
