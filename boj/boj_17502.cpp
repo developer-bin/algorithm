@@ -34,14 +34,21 @@ int main() {
 
 	while (start <= endd) {
 		if (s[start] == '?' && s[endd] != '?') {
+
 			s[start] = s[endd];
+
 		}
 		else if (s[start] != '?' && s[endd] == '?') {
+
 			s[endd] = s[start];
+
 		}
 		else if (s[start] == '?' && s[endd] == '?') {
+
 			s[start] = s[endd] = 'a';
+
 		}
+
 		start += 1;
 		endd -= 1;
 	}

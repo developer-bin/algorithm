@@ -29,10 +29,14 @@ int main() {
 	cin >> n >> l;
 
 	string s = "1";
+
 	while (n--) {
+
 		bool check = true;
+
 		for (int i = 0; i < (int)s.length(); i++) {
 			if (s[i] == l[0]) {
+
 				check = false;
 				break;
 			}

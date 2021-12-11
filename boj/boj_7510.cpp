@@ -33,13 +33,18 @@ int main() {
 		cout << "Scenario #" << i << ":\n";
 		
 		for (int j = 0; j < 3; j++) {
+
 			cin >> a[j];
 		}
 
 		sort(a, a + 3);
 
-		if ((a[0] * a[0] + a[1] * a[1]) == a[2] * a[2])cout << "yes\n";
-		else cout << "no\n";
+		if ((a[0] * a[0] + a[1] * a[1]) == a[2] * a[2]) { 
+			cout << "yes\n"; 
+		}
+		else { 
+			cout << "no\n";
+		}
 
 		cout << "\n";
 
