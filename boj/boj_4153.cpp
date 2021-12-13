@@ -16,7 +16,6 @@
 #define MAX_VALUE 200000000
 #define ll long long
 using namespace std;
-
 int a[3];
 
 int main() {
@@ -25,6 +24,7 @@ int main() {
 	cout.tie(NULL);
 
 	while (true) {
+
 		for (int i = 0; i < 3; i++) {
 			cin >> a[i];
 		}
