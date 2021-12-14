@@ -23,6 +23,7 @@ int star_diff = 1;
 int space_diff = 0;
 
 int main() {
+
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
@@ -44,5 +45,6 @@ int main() {
 
 		space_diff += 1;
 		star_diff += 2;
+
 	}
 }
