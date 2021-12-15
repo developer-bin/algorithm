@@ -27,9 +27,11 @@ int f(int n) {
 	if (result != -1)return result;
 
 	return result = f(n - 1) + f(n - 3);
+
 }
 
 int main() {
+
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
