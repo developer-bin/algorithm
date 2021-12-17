@@ -25,8 +25,10 @@ int main() {
 	cout.tie(NULL);
 
 	cin >> n;
+
 	for (int i = 1; i <= n; i++) {
 		int a, b;
+
 		cin >> a >> b;
 	}
 
