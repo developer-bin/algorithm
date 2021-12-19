@@ -31,6 +31,7 @@ int main() {
 		for (int i = 1; i <= 7; i++) {
 			int num;
 			cin >> num;
+
 			if (num % 2 == 0) {
 				sum += num;
 				if (min_num > num) {
