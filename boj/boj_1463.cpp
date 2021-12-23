@@ -12,7 +12,9 @@
 using namespace std;
 int n;
 int d[1000001];
+
 int f(int num) {
+
 	if (num < 1)return MAX_VALUE;
 	if (num == 1) { return 0; }
 	int &ans = d[num];
