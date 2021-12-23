@@ -14,7 +14,9 @@
 #define ll long long
 using namespace std;
 int n;
+
 int slice_and_add(string s) {
+
 	if (s.length() == 1) {
 		s.push_back(s[0]);
 		s[0] = '0';
