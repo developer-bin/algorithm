@@ -19,6 +19,7 @@ using namespace std;
 int n;
 vector<string> v;
 set<string> sets;
+
 bool cmp(string a, string b) {
 	if (a.length() < b.length()) {
 		return true;
@@ -29,6 +30,7 @@ bool cmp(string a, string b) {
 	return false;
 }
 int main() {
+
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
