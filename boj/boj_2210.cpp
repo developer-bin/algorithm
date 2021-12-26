@@ -15,6 +15,7 @@
 #define ll long long
 using namespace std;
 char maps[6][6];
+
 bool boundary(int x, int y) {
 	return x >= 1 && x <= 5 && y >= 1 && y <= 5;
 }
@@ -23,6 +24,7 @@ int dy[] = { 1,-1,0,0 };
 bool visit[6][6];
 set<string> sets;
 void dfs(int x, int y, string s) {
+
 	int len = s.length();
 	if (len == 6) {
 		sets.insert(s);
@@ -42,6 +44,7 @@ int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	//init
 	//input
 	for (int i = 1; i <= 5; i++) {
