@@ -21,6 +21,7 @@ int n, m;
 unordered_map<string, string> maps;
 
 int main() {
+
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
