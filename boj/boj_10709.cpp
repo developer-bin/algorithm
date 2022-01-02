@@ -22,6 +22,7 @@ char maps[101][101];
 int ans[101][101];
 
 int main() {
+
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
@@ -35,6 +36,7 @@ int main() {
 
 	for (int i = 1; i <= w; i++) {
 		int cnt = 0;
+
 		for (int j = 1; j <= h; j++) {
 			if (maps[i][j] == '.' && cnt == 0)ans[i][j] = -1;
 			else if (maps[i][j] == 'c') {
