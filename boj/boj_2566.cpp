@@ -18,7 +18,9 @@
 using namespace std;
 int ans = MIN_VALUE;
 int x, y;
+
 int main() {
+
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
