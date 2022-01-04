@@ -17,10 +17,12 @@ using namespace std;
 int n;
 vector<double> v;
 double max_num = MIN_VALUE;
+
 int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	//init
 	//input
 	cin >> n;
