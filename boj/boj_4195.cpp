@@ -17,6 +17,7 @@
 using namespace std;
 int t, f;
 unordered_map<string, pair<string, int>> p;
+
 pair<string, int> Find(string v) {
 	if ("" == p[v].first) {
 		p[v].first = v;
@@ -47,6 +48,7 @@ int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	//init
 	//input
 	cin >> t;
