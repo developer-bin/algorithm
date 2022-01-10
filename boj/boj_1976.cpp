@@ -19,7 +19,9 @@ using namespace std;
 int n, m;
 int dist[201][201];
 int path[201];
+
 void input() {
+
 	cin >> n >> m;
 	for (int i = 1; i <= n; i++) {
 		for (int j = 1; j <= n; j++) {
