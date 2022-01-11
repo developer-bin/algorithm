@@ -17,6 +17,7 @@ int cost[1001][4];
 int n;
 int ans = MAX_VALUE;
 int d[1001][4];
+
 int state(int idx, int color) {
 	if (idx == 0) {
 		return 0;
@@ -37,6 +38,7 @@ int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	//init
 	memset(d, -1, sizeof(d));
 
