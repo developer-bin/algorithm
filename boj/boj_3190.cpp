@@ -25,6 +25,7 @@ int dx[] = { -1,0,1,0 };
 int dy[] = { 0,1,0,-1 };
 bool snake[101][101];
 int dist[101][101];
+
 bool boundary(int x, int y) {
 	return x >= 1 && x <= n && y >= 1 && y <= n;
 }
@@ -60,6 +61,7 @@ int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	//init
 	//input
 	cin >> n >> k;
