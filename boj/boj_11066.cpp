@@ -20,6 +20,7 @@ int k;
 int a[501];
 int sum[501];
 int d[501][501];
+
 int state(int left, int right) {
 	if (left == right)return 0;
 	int &result = d[left][right];
@@ -34,6 +35,7 @@ int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	//init
 	//input
 	cin >> t;
