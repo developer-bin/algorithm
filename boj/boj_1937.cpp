@@ -31,10 +31,12 @@ int dfs(int x, int y) {
 	}
 	return ans;
 }
+
 int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	//input
 	memset(d, -1, sizeof(d));
 	cin >> n;
