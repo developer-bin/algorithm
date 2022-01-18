@@ -15,6 +15,7 @@
 using namespace std;
 int n, s, m;
 int v[101];
+
 bool boundary(int x) {
 	return x >= 0 && x <= m;
 }
@@ -34,6 +35,7 @@ int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	//init
 	memset(d, -1, sizeof(d));
 	//input
