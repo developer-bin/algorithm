@@ -13,6 +13,7 @@ int n, k;
 bool alpa[26];
 vector<string> v;
 int ans;
+
 int checking() {
 	int cnt = 0;
 	for (int i = 0; i < v.size(); i++) {
@@ -41,6 +42,7 @@ void combi(int idx, int cnt) {
 	}
 }
 int main() {
+
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
