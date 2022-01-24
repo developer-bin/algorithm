@@ -15,6 +15,7 @@
 using namespace std;
 int n;
 int d[3][100001];
+
 int dfs(int state, int n) {
 	if (n == ::n)return 1;
 	int &ans = d[state][n];
@@ -32,6 +33,7 @@ int dfs(int state, int n) {
 	return ans %= MOD;
 }
 int main() {
+
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
