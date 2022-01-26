@@ -16,6 +16,7 @@
 #define ll long long
 using namespace std;
 int n;
+
 bool checking(int num) {
 	string s = to_string(num);
 	for (int i = 0; i < (int)s.length(); i++) {
@@ -29,6 +30,7 @@ int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	//init
 	//input
 	cin >> n;
