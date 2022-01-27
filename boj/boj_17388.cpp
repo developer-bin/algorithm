@@ -25,10 +25,12 @@ struct cmp {
 	}
 };
 priority_queue < pair<string, int>, vector<pair<string, int>>, cmp>pq;
+
 int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	//init
 	//input
 	int s, k, h,sum=0;
