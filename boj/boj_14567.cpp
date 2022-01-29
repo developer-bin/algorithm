@@ -16,11 +16,13 @@
 #define MAX_VALUE 200000000
 #define ll long long
 using namespace std;
+
 int n, m;
 vector<int> graph[1001];
 int ind[1001];
 int ans[1001];
 int cnt = 1;
+
 int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
