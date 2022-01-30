@@ -18,10 +18,12 @@
 using namespace std;
 int q;
 map<int, vector<string>> maps;
+
 int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	//init
 	maps[1967].push_back("DavidBowie");
 	maps[1969].push_back("SpaceOddity");
