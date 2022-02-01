@@ -17,6 +17,7 @@
 using namespace std;
 int n;
 char maps[2188][2188];
+
 void state(int n,int x,int y) {
 	if (n == 3) {
 		for (int i = x; i <= x + 2; i++) {
@@ -40,6 +41,7 @@ int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	//init
 	for (int i = 1; i <= (int)pow(3, 7); i++) {
 		for (int j = 1; j <= (int)pow(3, 7); j++) {
