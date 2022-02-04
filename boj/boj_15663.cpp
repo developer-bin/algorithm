@@ -20,6 +20,7 @@ bool visit[9];
 int a[9];
 vector<int> permu_v;
 set<vector<int>> sets;
+
 void permu(int cnt) {
 	if (cnt == m) {
 		sets.insert(permu_v);
@@ -38,6 +39,7 @@ int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	//init
 	//input
 	cin >> n >> m;
