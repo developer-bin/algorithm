@@ -18,10 +18,12 @@
 using namespace std;
 int n;
 int chang=100, sang=100;
+
 int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	//init
 	//input
 	cin >> n;
