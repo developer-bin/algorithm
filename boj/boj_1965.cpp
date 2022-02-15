@@ -17,6 +17,7 @@ int n;
 int a[1001];
 int ans;
 int d[1001];
+
 int dfs(int idx) {
 	int &ans = d[idx];
 	if (ans != -1) {  return ans; }
@@ -35,6 +36,7 @@ int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	//init
 	memset(d, -1, sizeof(d));
 	//input
