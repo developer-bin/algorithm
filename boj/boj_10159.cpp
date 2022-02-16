@@ -17,10 +17,12 @@
 using namespace std;
 int n, m;
 bool dist[101][101];
+
 int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	//init
 	//input
 	cin >> n >> m;
