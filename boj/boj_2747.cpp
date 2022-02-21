@@ -18,6 +18,7 @@
 using namespace std;
 int n;
 int d[46];
+
 int f(int n) {
 	if (n == 0) {
 		return d[n] = 0;
@@ -34,6 +35,7 @@ int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	//init
 	memset(d, -1, sizeof(d));
 	//input
