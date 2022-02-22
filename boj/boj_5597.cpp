@@ -16,10 +16,12 @@
 #define ll long long
 using namespace std;
 int check[31];
+
 int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	//init
 	//input
 	for (int i = 1; i <= 28; i++) {
