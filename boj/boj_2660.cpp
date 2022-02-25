@@ -17,6 +17,7 @@ using namespace std;
 int dx[] = { 0,0,-1,1 };
 int dy[] = { 1,-1,0,0 };
 int n, m;
+
 bool boundary(int x, int y) {
 	return x >= 1 && x <= n && y >= 1 && y <= m;
 }
@@ -27,6 +28,7 @@ int dist[51][51];
 int ans = MAX_VALUE;
 int ans_cnt;
 vector<int> ans_v;
+
 void init() {
 	for (int i = 1; i <= 50; i++) {
 		for (int j = 1; j <= 50; j++) {
@@ -77,6 +79,7 @@ int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	/*
 	int t;
 	cin >> t;
