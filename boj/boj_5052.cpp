@@ -8,6 +8,7 @@
 #define MAX_VALUE 200000000
 #define MIN_VALUE 200000000
 using namespace std;
+
 struct node {
 	bool valid;
 	int child[10];
@@ -56,10 +57,12 @@ bool checking(int trie_idx) {
 }
 int t;
 int n;
+
 int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	//input
 	cin >> t;
 	while (t--) {
