@@ -19,6 +19,7 @@ using namespace std;
 int t;
 int n;
 ll d[65][10];
+
 ll state(int idx, int num) {
 	if (idx == 1)return 1;
 	ll &result = d[idx][num];
@@ -30,6 +31,7 @@ ll state(int idx, int num) {
 	return result;
 }
 int main() {
+
 	//init
 	memset(d, -1, sizeof(d));
 	//input
