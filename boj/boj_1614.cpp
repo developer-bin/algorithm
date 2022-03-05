@@ -16,10 +16,12 @@ using namespace std;
 int son;
 ll cnt;
 ll ans;
+
 int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	//input
 	cin >> son >> cnt;
 	//solve
