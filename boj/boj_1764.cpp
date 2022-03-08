@@ -16,10 +16,12 @@ using namespace std;
 int n, m;
 map<string, int>visit;
 vector<string> ans;
+
 int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	//init
 	//input
 	cin >> n >> m;
