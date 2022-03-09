@@ -19,6 +19,7 @@ using namespace std;
 int n;
 vector<int> v;
 int ans = MIN_VALUE;
+
 bool cmp(int a, int b) {
 	if (a > b)return true;
 	return false;
@@ -27,6 +28,7 @@ int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	//init
 	//input
 	cin >> n;
