@@ -19,6 +19,7 @@ using namespace std;
 int n;
 int a[1000001];
 int tmp_a[1000001];
+
 void quick_sort(int s, int e) {
 	if (s >= e)return;
 	int pivot = a[s];
@@ -67,6 +68,7 @@ void merge_sort(int s, int e) {
 int main() {
 	//init
 	//input
+
 	cin >> n;
 	for (int i = 0; i < n; i++) {
 		cin >> a[i];
