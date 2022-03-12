@@ -13,6 +13,7 @@
 #define MOD 9901
 #define ll long long
 using namespace std;
+
 struct vertex {
 	int s_time; int stud_num; int recommand;
 };
@@ -34,6 +35,7 @@ int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	//init
 	//input
 	cin >> n;
