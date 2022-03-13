@@ -18,10 +18,12 @@
 using namespace std;
 string s;
 int ans = 10;
+
 int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	//init
 	//input
 	cin >> s;
