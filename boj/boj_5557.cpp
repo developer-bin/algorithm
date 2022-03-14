@@ -18,6 +18,7 @@ using namespace std;
 int n;
 int a[101];
 ll d[21][101];
+
 ll dfs(int sum, int idx) {
 	if (idx == n - 1) {
 		if (sum == a[n])return 1;
@@ -32,6 +33,7 @@ int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	//init
 	memset(d, -1, sizeof(d));
 	//input
