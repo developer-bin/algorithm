@@ -20,6 +20,7 @@ bool col[15];
 bool down[30];
 bool up[30];
 int ans;
+
 void dfs(int row) {
 	if (row == n + 1) {
 		ans += 1;
@@ -38,6 +39,7 @@ int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	//init
 	//input
 	cin >> n;
