@@ -19,6 +19,7 @@ bool visit[101];
 int ladder[101];
 int snake[101];
 int n, m;
+
 struct vertex {
 	int x; int cnt;
 };
@@ -26,6 +27,7 @@ int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	//init
 	//input
 	cin >> n >> m;
