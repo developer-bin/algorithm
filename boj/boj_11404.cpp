@@ -16,10 +16,12 @@
 using namespace std;
 int n, m;
 int cost_a[101][101];
+
 int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	//init
 	for (int i = 1; i <= 100; i++) {
 		for (int j = 1; j <= 100; j++) {
