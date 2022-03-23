@@ -12,6 +12,7 @@
 #define ll long long
 using namespace std;
 map<string, bool> ans_visit;
+
 bool checking(string s) {
 	char maps[4][4] = { 0, };
 	int s_idx = 0;
@@ -76,6 +77,7 @@ int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	//init
 	dfs(".........", 0,0);
 	//input
