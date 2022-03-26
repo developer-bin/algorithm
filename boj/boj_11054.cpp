@@ -20,6 +20,7 @@ int a[1001];
 int d1[1001];
 int d2[1001];
 int ans = MIN_VALUE;
+
 int up_dfs(int idx) {
 	int &ans = d1[idx];
 	if (ans != -1)return ans;
@@ -47,6 +48,7 @@ int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	//init
 	memset(d1, -1, sizeof(d1));
 	memset(d2, -1, sizeof(d2));
