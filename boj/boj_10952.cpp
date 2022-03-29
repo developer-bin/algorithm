@@ -16,10 +16,12 @@
 #define MAX_VALUE 200000000
 #define ll long long
 using namespace std;
+
 int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	//init
 	//input
 	while (true) {
