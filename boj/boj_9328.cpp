@@ -15,6 +15,7 @@ char key_a[27];
 int dx[] = { 0,0,-1,1 };
 int dy[] = { 1,-1,0,0 };
 int ans;
+
 struct v {
 	int x; int y;
 };
@@ -22,6 +23,7 @@ bool boundary(int x, int y) {
 	return x >= 1 && x <= n + 2 && y >= 1 && y <= m + 2;
 }
 int main() {
+
 	scanf("%d", &t);
 	while(t--){
 		scanf("%d %d", &n, &m);
