@@ -16,6 +16,7 @@ using namespace std;
 int t;
 int n;
 int d[12];
+
 int dfs(int sum) {
 	if (sum < 0)return 0;
 	if (sum == 0)return 1;
@@ -27,6 +28,7 @@ int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	//init
 	memset(d, -1, sizeof(d));
 	dfs(11);
