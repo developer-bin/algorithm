@@ -19,6 +19,7 @@ int a[9];
 bool visit[9];
 vector<int> v;
 int ans = MIN_VALUE;
+
 void permu(int cnt) {
 	if (cnt == n) {
 		int sum = 0;
@@ -42,6 +43,7 @@ int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	//init
 	//input
 	cin >> n;
