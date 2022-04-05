@@ -17,10 +17,12 @@
 #define ll long long
 using namespace std;
 string a, op, b;
+
 int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	//init
 	//input
 	cin >> a >> op >> b;
