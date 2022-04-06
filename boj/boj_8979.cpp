@@ -16,6 +16,7 @@
 #define MOD 1000000000
 #define ll long long
 using namespace std;
+
 struct node {
 	int num;
 	int gold;
@@ -47,6 +48,7 @@ int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	//init
 	//input
 	cin >> n >> k;
