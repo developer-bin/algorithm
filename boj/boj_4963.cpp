@@ -20,6 +20,7 @@ int maps[51][51];
 bool visit[51][51];
 int dx[] = { 0,0,-1,1,-1,-1,1,1 };
 int dy[] = { 1,-1,0,0,-1,1,-1,1 };
+
 bool boundary(int x, int y) {
 	return x >= 1 && x <= w && y >= 1 && y <= h;
 }
@@ -37,6 +38,7 @@ int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	while (true) {
 		//init
 		memset(visit, false, sizeof(visit));
