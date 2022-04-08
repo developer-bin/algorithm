@@ -16,6 +16,7 @@
 using namespace std;
 int a[14], k;
 bool combi_check[14];
+
 void combi(int idx, int cnt) {
 	if (cnt == 6) {
 		for (int i = 1; i <= k; i++) {
@@ -32,6 +33,7 @@ int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	//init
 	//input
 	while (true) {
