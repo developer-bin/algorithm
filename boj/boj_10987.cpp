@@ -17,10 +17,12 @@
 using namespace std;
 string s;
 int cnt;
+
 int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	//init
 	//input
 	cin >> s;
