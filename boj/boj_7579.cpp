@@ -19,6 +19,7 @@ int n, m;
 int byte[101];
 int cost[101];
 int d[101][10001];
+
 int state(int idx, int sum_cost) {
 	if (idx == n + 1) return 0;
 	int &result = d[idx][sum_cost];
@@ -33,6 +34,7 @@ int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	//init
 	memset(d, -1, sizeof(d));
 	//input
