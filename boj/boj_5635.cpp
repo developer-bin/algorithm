@@ -14,6 +14,7 @@
 #define MAX_VALUE 200000000
 #define ll long long
 using namespace std;
+
 struct node {
 	string name;
 	int d;
@@ -42,6 +43,7 @@ int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	//init
 	//input
 	cin >> n;
