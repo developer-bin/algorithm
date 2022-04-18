@@ -17,6 +17,7 @@ ll n, m;
 ll k;
 ll mid_d[16][16];
 ll d[16][16];
+
 bool boundary(int x, int y) {
 	return x >= 0 && x < n && y >= 0 && y < m;
 }
@@ -58,6 +59,7 @@ int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	//init
 	memset(d, -1, sizeof(d));
 	memset(mid_d, -1, sizeof(mid_d));
