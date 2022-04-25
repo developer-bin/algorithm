@@ -19,6 +19,7 @@ using namespace std;
 int match[10001][7];
 int n;
 int ans;
+
 void match_create(int floor,int *input) {
 	match[floor][input[1]] = input[6];
 	match[floor][input[2]] = input[4];
@@ -45,6 +46,7 @@ int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	//init
 	//input
 	cin >> n;
