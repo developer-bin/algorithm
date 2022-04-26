@@ -17,6 +17,7 @@ using namespace std;
 int n, t;
 int visit[1001];
 int graph[1001];
+
 bool dfs(int s_v,int v) {
 	visit[v] = s_v;
 	int n_v = graph[v];
@@ -37,6 +38,7 @@ int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	//init
 	//input
 	cin >> t;
