@@ -18,6 +18,7 @@ ll d[1 << 16][17];
 int n;
 ll w[17][17];
 ll ans = MAX_VALUE;
+
 ll dfs(int bit, ll num) {
 	if (bit == (1 << n) - 1) {
 		if (w[num][0] != 0)return w[num][0];
@@ -42,6 +43,7 @@ int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	//init
 	memset(d, -1, sizeof(d));
 	//input
