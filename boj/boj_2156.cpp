@@ -15,6 +15,7 @@ using namespace std;
 int n;
 int a[10001];
 int d[10001][3];
+
 int dfs(int idx, int cnt) {
 	if (idx > n)return 0;
 	int &result = d[idx][cnt];
@@ -30,6 +31,7 @@ int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	//init
 	memset(d, -1, sizeof(d));
 	//input
