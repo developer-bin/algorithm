@@ -16,6 +16,7 @@ using namespace std;
 int a[1001];
 int t, w;
 int d[3][31][1001];
+
 int tree_idx_change(int idx) {
 	if (idx == 1)return 2;
 	if (idx == 2)return 1;
@@ -47,6 +48,7 @@ int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	//init
 	memset(d, -1, sizeof(d));
 	//input
