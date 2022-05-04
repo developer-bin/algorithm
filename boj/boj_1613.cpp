@@ -9,6 +9,7 @@ using namespace std;
 bool dist[401][401];
 bool r_dist[401][401];
 int n, k, s;
+
 void dist_solve() {
 	for (int i = 1; i <= n; i++) { 
 		dist[i][i] = true;
@@ -28,6 +29,7 @@ int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	cin >> n >> k;
 	for (int i = 1; i <= k; i++) {
 		int from, to;
