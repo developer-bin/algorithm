@@ -21,6 +21,7 @@ int visit[1001];
 vector<pair<int, int>> graph[1001];
 int path[1001];
 int s, e;
+
 struct cmp {
 	bool operator()(pair<int, int> a, pair<int, int> b) {
 		if (a.first > b.first)return true;
@@ -32,6 +33,7 @@ int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	//init
 	for (int i = 1; i <= 1000; i++) {
 		dist[i] = MAX_VALUE;
