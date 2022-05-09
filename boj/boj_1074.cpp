@@ -17,6 +17,7 @@ int n, r, c;
 int num = -1;
 int ans;
 bool check;
+
 void dfs(int x, int y, int n) {
 	if (n == 1) {
 		num += 1;
@@ -46,6 +47,7 @@ int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	//init
 	//input
 	cin >> n >> r >> c;
