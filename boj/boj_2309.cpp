@@ -17,6 +17,7 @@ using namespace std;
 int a[10];
 bool check;
 bool visit[10];
+
 void combi(int idx, int cnt, int sum) {
 	if (cnt == 7) {
 		if (sum == 100) {
@@ -38,6 +39,7 @@ int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	//init
 	//input
 	for (int i = 1; i <= 9; i++)cin >> a[i];
