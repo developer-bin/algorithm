@@ -17,6 +17,7 @@
 #define ll long long
 using namespace std;
 string s;
+
 int convert(string ss) {
 	if (ss == "000")return 0;
 	if (ss == "001")return 1;
@@ -31,6 +32,7 @@ int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	//init
 	//input
 	cin >> s;
