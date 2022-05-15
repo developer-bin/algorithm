@@ -20,10 +20,12 @@ int n, m;
 int print_num;
 int weight[101];
 bool q_visit[101];
+
 int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	cin >> t;
 	while (t--) {
 		//init
