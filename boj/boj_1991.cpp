@@ -17,6 +17,7 @@
 using namespace std;
 map<char, pair<char, char>> graph;
 int n;
+
 void pri_dfs(char alpha) {
 	cout << alpha;
 	char left = graph[alpha].first;
@@ -42,6 +43,7 @@ int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	//init
 	//input
 	cin >> n;
