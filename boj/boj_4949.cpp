@@ -15,6 +15,7 @@
 #define ll long long
 using namespace std;
 string s;
+
 bool checking(stack<char> &st, char c) {
 	if (st.empty()) {
 		return false;
@@ -31,6 +32,7 @@ int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	//init
 	while (true) {
 		//input
