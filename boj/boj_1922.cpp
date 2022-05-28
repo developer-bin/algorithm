@@ -17,6 +17,7 @@
 using namespace std;
 int parent[1001];
 int n, m;
+
 int Find(int v) {
 	if (parent[v] == v)return v;
 	else {
@@ -42,6 +43,7 @@ int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	//init
 	for (int i = 1; i <= 1000; i++) {
 		parent[i] = i;
