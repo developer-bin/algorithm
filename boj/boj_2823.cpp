@@ -16,6 +16,7 @@ using namespace std;
 char maps[11][11];
 int r, c;
 int s_x, s_y;
+
 bool boundary(int x, int y) {
 	return x >= 1 && x <= r && y >= 1 && y <= c;
 }
@@ -46,6 +47,7 @@ int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	//init
 	//input
 	cin >> r >> c;
