@@ -11,6 +11,7 @@ bool maps[51][51];
 bool visit[51][51];
 int dx[] = { 0,0,-1,1 };
 int dy[] = { 1,-1,0,0 };
+
 bool boundary(int x, int y) {
 	return x >= 1 && x <= n && y >= 1 && y <= m;
 }
@@ -34,6 +35,7 @@ void bfs(int s_x, int s_y) {
 }
 int main() {
 	cin >> t;
+
 	while (t--) {
 		memset(maps, false, sizeof(maps));
 		memset(visit, false, sizeof(visit));
