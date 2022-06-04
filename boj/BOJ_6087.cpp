@@ -21,6 +21,7 @@ int dy[] = { 1,0,-1,0 };
 char maps[101][101];
 int n, m;
 int s_x, s_y;
+
 struct vertex {
 	int x; int y; int dist; int cnt;
 };
@@ -33,7 +34,7 @@ bool boundary(int x, int y) {
 	return x >= 1 && x <= n && y >= 1 && y <= m;
 }
 int dist_convert(char c, int dist) {
-	// a= /, b= ¹İ´ë
+	// a= /, b= ë°˜ëŒ€
 	if (c == 'a') {
 		if (dist == 0)return 1;
 		if (dist == 1)return 0;
@@ -53,6 +54,7 @@ int main() {
 	/*ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);*/
+
 	//init
 	//input
 	cin >> m >> n;
@@ -84,21 +86,21 @@ int main() {
 			cout << cnt;
 			break;
 		}
-		// . ±×³É °¡´ø¹æÇâ °è¼ÓÀüÁø
+		// . ê·¸ëƒ¥ ê°€ë˜ë°©í–¥ ê³„ì†ì „ì§„
 		int nx = x + dx[dist];
 		int ny = y + dy[dist];
 		if (boundary(nx, ny) && (maps[nx][ny]=='.'||maps[nx][ny]=='C') && visit[nx][ny][dist][0] == false) {
 			visit[nx][ny][dist][0] == true;
 			pq.push({ nx,ny,dist,cnt });
 		}
-		// / ¸¸µé¾î¼­ ²ªÀ½
+		// / ë§Œë“¤ì–´ì„œ êº¾ìŒ
 		int n_dist = dist_convert('a', dist);
 		if (visit[x][y][n_dist][1] == false) {
 			visit[x][y][n_dist][1] = true;
 			pq.push({ x,y,n_dist,cnt + 1 });
 		}
 
-		// ¹İ´ë °Å¿ï ¸¸µé¾î¼­ ²ªÀ½
+		// ë°˜ëŒ€ ê±°ìš¸ ë§Œë“¤ì–´ì„œ êº¾ìŒ
 		n_dist = dist_convert('b', dist);
 		if (visit[x][y][n_dist][1] == false) {
 			visit[x][y][n_dist][1] = true;
