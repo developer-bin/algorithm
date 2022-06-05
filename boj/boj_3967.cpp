@@ -6,6 +6,7 @@ bool alpa_visit[26];
 unordered_set<int> sets;
 int s1, s2, s3, s4, s5, s6;
 int c_s1, c_s2, c_s3, c_s4, c_s5, c_s6;
+
 bool go_add() {
 	int s1 = maps[0][4] + maps[1][3] + maps[2][2] + maps[3][1] - (4 * 'A');
 	int s2 = maps[0][4] + maps[1][5] + maps[2][6] + maps[3][7] - (4 * 'A');
@@ -104,6 +105,7 @@ void dfs(int num) {
 int main() {
 	//init
 	//input
+
 	for (int i = 0; i < 5; i++) {
 		for (int j = 0; j < 9; j++) {
 			scanf(" %c", &maps[i][j]);
