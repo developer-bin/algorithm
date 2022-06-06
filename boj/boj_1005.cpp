@@ -22,6 +22,7 @@ int ind[1001];
 int result_time[1001];
 vector<int> graph[1001];
 int w;
+
 void bfs(queue<int> &q) {
 	while (!q.empty()) {
 		int v = q.front();
@@ -40,6 +41,7 @@ int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	//init
 	//input
 	cin >> t;
