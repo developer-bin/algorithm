@@ -18,10 +18,12 @@
 using namespace std;
 int a[5];
 int sum;
+
 int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	//init
 	//input
 	for (int i = 0; i < 5; i++) {
