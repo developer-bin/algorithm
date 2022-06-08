@@ -16,6 +16,7 @@
 #define MOD 1000000000
 #define ll long long
 using namespace std;
+
 int gcd(int a, int b) {
 	if (b == 0) {
 		return a;
@@ -27,6 +28,7 @@ int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	//init
 	//input
 	cin >> a >> b;
