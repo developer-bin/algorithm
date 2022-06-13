@@ -18,6 +18,7 @@ using namespace std;
 int n, k;
 int route_cnt;
 int route_time = MAX_VALUE;
+
 bool boundary(int x) {
 	return x >= 0 && x <= 1000000;
 }
@@ -26,6 +27,7 @@ int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	//init
 	//input
 	cin >> n >> k;
