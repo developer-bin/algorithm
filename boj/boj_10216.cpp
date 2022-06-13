@@ -11,6 +11,7 @@
 using namespace std;
 int t;
 int n;
+
 struct node {
 	int x; int y; int r;
 };
@@ -27,6 +28,7 @@ void dfs(int v) {
 	}
 }
 int main() {
+
 	cin >> t;
 	while (t--) {
 		//init

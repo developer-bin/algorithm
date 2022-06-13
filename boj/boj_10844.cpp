@@ -15,6 +15,7 @@ using namespace std;
 int n;
 ll ans;
 ll d[10][101];
+
 ll dfs(int floor, int cnt) {
 	if (cnt == 1 && floor == 0)return 0;
 	if (cnt == 1)return 1;
@@ -35,6 +36,7 @@ int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	//init
 	memset(d, -1, sizeof(d));
 	//input
