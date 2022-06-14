@@ -19,10 +19,12 @@ using namespace std;
 int n;
 int min_num=MAX_VALUE;
 int max_num = MIN_VALUE;
+
 int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	//init
 	//input
 	cin >> n;
