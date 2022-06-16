@@ -12,6 +12,7 @@ char map[51][51];
 vector<int> graph[51];
 bool visit[51];
 int ans = -200000000;
+
 int bfs(int start_v) {
 	int cnt = 0;
 	memset(visit, false, sizeof(visit));
@@ -35,6 +36,7 @@ int bfs(int start_v) {
 	return cnt;
 }
 int main() {
+
 	scanf("%d", &n);
 	for (int i = 1; i <= n; i++) {
 		for (int j = 1; j <= n; j++) {
