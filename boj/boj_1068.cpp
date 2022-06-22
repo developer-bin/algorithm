@@ -19,6 +19,7 @@ vector<int> graph[51];
 bool visit[51];
 int ans;
 int root;
+
 void dfs(int v) {
 	if (v == erase)return;
 	if (graph[v].size() == 0) {
@@ -37,6 +38,7 @@ int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	//init
 	//input
 	cin >> n;
