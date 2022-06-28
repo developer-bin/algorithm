@@ -19,6 +19,7 @@ int n, m;
 int maps[101][101];
 int dx[] = { 0,0,-1,1 };
 int dy[] = { 1,-1,0,0 };
+
 struct vertex {
 	int x; int y; int weight;
 };
@@ -40,6 +41,7 @@ int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	//init
 	for (int i = 1; i <= 100; i++) {
 		for (int j = 1; j <= 100; j++) {
