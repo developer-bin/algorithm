@@ -6,7 +6,9 @@ string s;
 int n;
 bool visit[26];
 int ans;
+
 int main() {
+
 	cin >> n;
 	while (n--) {
 		memset(visit, false, sizeof(visit));
