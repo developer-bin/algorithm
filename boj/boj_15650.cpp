@@ -17,6 +17,7 @@ using namespace std;
 int n, m;
 bool visit[9];
 vector<int> permu_v;
+
 void permu(int idx,int cnt) {
 	if (cnt == m) {
 		for (int k : permu_v) {
@@ -34,6 +35,7 @@ void permu(int idx,int cnt) {
 	}
 }
 int main() {
+
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
