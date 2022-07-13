@@ -19,6 +19,7 @@ int n, k;
 int w[101];
 int v[101];
 int d[101][100001];
+
 int dfs(int idx, int sum_w) {
 	if (sum_w > k)return MIN_VALUE;
 	if (sum_w == k || idx == n + 1) {
@@ -33,6 +34,7 @@ int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	//init
 	memset(d, -1, sizeof(d));
 	//input
