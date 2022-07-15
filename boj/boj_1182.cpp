@@ -19,6 +19,7 @@ int n, s;
 int a[21];
 bool visit[2000001];
 int ans;
+
 void combi(int idx, int sum,int &cnt,int now_cnt) {
 	if (now_cnt == cnt && sum==s) {
 		ans += 1;
@@ -32,6 +33,7 @@ int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	//init
 	//input
 	cin >> n >> s;
