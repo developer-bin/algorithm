@@ -19,6 +19,7 @@ using namespace std;
 set<string> visit_sets;
 int dx[] = { 0,0,-1,1 };
 int dy[] = { 1,-1,0,0 };
+
 bool boundary(int x, int y) {
 	return x >= 0 && x < 3 && y >= 0 && y < 3;
 }
@@ -42,6 +43,7 @@ int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	//init
 	//input
 	string s;
