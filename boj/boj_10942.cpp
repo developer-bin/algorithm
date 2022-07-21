@@ -13,6 +13,7 @@ int n;
 int a[2001];
 int m;
 int d[2001][2001];
+
 int f(int s, int e) {
 	int &ans = d[s][e];
 	if (s == e)return ans =1;
@@ -31,6 +32,7 @@ int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	//init
 	memset(d, -1, sizeof(d));
 	//input
