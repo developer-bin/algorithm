@@ -14,6 +14,7 @@
 #define MIN_VALUE -200000000
 #define MAX_VALUE 200000000
 #define ll long long
+
 using namespace std;
 int n;
 string s;
@@ -22,6 +23,7 @@ int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	//init
 	//input
 	cin >> n;
