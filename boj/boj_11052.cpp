@@ -18,6 +18,7 @@ using namespace std;
 int n;
 int p[1001];
 int d[1001];
+
 int dfs(int cnt) {
 	if (cnt == 0)return 0;
 	if (cnt < 0)return MIN_VALUE;
@@ -32,6 +33,7 @@ int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	//init
 	memset(d, -1, sizeof(d));
 	//input
