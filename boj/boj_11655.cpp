@@ -15,6 +15,7 @@
 #define ll long long
 using namespace std;
 string s;
+
 char plus_13(char c) {
 	for (int i = 1; i <= 13; i++) {
 		if (c == 'Z')c = 'A';
@@ -27,6 +28,7 @@ int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	//init
 	//input
 	getline(cin,s);
