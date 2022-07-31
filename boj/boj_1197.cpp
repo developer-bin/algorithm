@@ -19,6 +19,7 @@ bool visit[10001];
 vector<pair<int, int>> graph[10001];
 int v, e;
 int ans;
+
 struct cmp {
 	bool operator()(pair<int, int> a, pair<int, int> b) {
 		if (a.second > b.second)return true;
@@ -30,6 +31,7 @@ int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	//init
 	//input
 	cin >> v >> e;
