@@ -19,6 +19,7 @@ int n, m;
 vector<int> graph[1001];
 bool visit[1001];
 int ans;
+
 void dfs(int v) {
 	visit[v] = true;
 	for (int i = 0; i < graph[v].size(); i++) {
@@ -32,6 +33,7 @@ int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	//init
 	//input
 	cin >> n >> m;
