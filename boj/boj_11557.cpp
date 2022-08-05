@@ -16,6 +16,7 @@
 using namespace std;
 int t;
 vector<pair<string, int>> v;
+
 bool cmp(pair<string, int> a, pair<string, int> b) {
 	if (a.second > b.second)return true;
 	return false;
@@ -24,6 +25,7 @@ int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	//init
 	//input
 	cin >> t;
