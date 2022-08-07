@@ -20,6 +20,7 @@ string permu_s;
 bool visit[11];
 int alpa_cnt[26];
 int ans;
+
 int Factorial(int n)
 {
 	int R = 1;
@@ -52,6 +53,7 @@ int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	//init
 	//input
 	cin >> s;
