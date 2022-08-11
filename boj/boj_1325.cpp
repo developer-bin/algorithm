@@ -20,6 +20,7 @@ vector<int> graph[10001];
 bool visit[10001];
 int ans;
 vector<int> ans_v;
+
 int bfs(int s_v) {
 	queue<int> q;
 	q.push(s_v);
@@ -43,6 +44,7 @@ int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	//init
 	//input
 	cin >> n >> m;
