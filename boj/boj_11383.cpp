@@ -20,10 +20,12 @@ int n, m;
 vector<string> s1;
 vector<string> s2;
 vector<string> s3;
+
 int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	//init
 	//input
 	cin >> n >> m;
