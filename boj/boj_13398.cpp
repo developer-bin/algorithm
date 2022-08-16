@@ -19,6 +19,7 @@ int n;
 int a[100001];
 int d[100001][2];
 int ans = MIN_VALUE;
+
 int dfs(int idx, int erase) {
 	int &ans = d[idx][erase];
 	if (ans != MAX_VALUE)return ans;
@@ -39,6 +40,7 @@ int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	//init
 	for (int i = 1; i <= 100000; i++) {
 		for (int j = 0; j <= 1; j++) {
