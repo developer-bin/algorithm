@@ -20,6 +20,7 @@ vector<int> graph[2001];
 int depth;
 bool visit[2001];
 bool check;
+
 void dfs(int v) {
 	for (int i = 0; i < graph[v].size(); i++) {
 		int n_v = graph[v][i];
@@ -37,6 +38,7 @@ int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	//init
 	//input
 	cin >> n >> m;
