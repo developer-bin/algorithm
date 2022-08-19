@@ -19,6 +19,7 @@ int n;
 bool era[4000001];
 vector<int> eratos;
 int ans;
+
 bool dfs(int num, int idx) {
 	if (num == n)return true;
 	if (num > n)return false;
@@ -31,6 +32,7 @@ int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	//init
 	for (int i = 2; i <= 4000000; i++) {
 		if (era[i] == false) {
