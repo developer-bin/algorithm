@@ -17,6 +17,7 @@
 using namespace std;
 int n;
 int d[21];
+
 int solve(int n) {
 	if (n == 0)return d[n]=0;
 	if (n == 1)return d[n]=1;
@@ -29,6 +30,7 @@ int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	//init
 	memset(d, -1, sizeof(d));
 	//input
