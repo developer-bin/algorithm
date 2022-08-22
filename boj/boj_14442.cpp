@@ -18,6 +18,7 @@ using namespace std;
 int n, m, k;
 int maps[1001][1001];
 int ans = -1;
+
 struct vertex {
 	int x;
 	int y;
@@ -35,6 +36,7 @@ int main() {
 	/*ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);*/
+
 	//init
 	//input
 	cin >> n >> m >> k;
