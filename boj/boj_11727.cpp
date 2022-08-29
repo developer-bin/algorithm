@@ -15,6 +15,7 @@
 using namespace std;
 int n;
 int d[1001];
+
 int dfs(int idx) {
 	if (idx > n)return 0;
 	if (idx == n)return 1;
@@ -28,6 +29,7 @@ int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	//init
 	memset(d, -1, sizeof(d));
 	//input
