@@ -6,6 +6,7 @@ using namespace std;
 int n;
 string s;
 int ans = MIN_VALUE;
+
 int calculate(int a, int b, char c) {
 	if (c == '+') {
 		return a + b;
@@ -25,7 +26,7 @@ void state(int idx, int sum) {
 	}
 	
 	if (idx + 2 <= n) {
-		//��ȣ o
+		//°ýÈ£ o
 		string tmp_s = s.substr(idx, 3);
 		int num = calculate(tmp_s[0] - '0', tmp_s[2] - '0', tmp_s[1]);
 		state(idx + 4, calculate(sum, num, s[idx - 1]));
@@ -35,6 +36,7 @@ void state(int idx, int sum) {
 int main() {
 	//init
 	//input
+
 	cin >> n;
 	cin >> s;
 	s.insert(s.begin(), '+');
