@@ -15,10 +15,12 @@ using namespace std;
 int n;
 int a[1001];
 int d[1001];
+
 int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	//init
 	memset(d, -1, sizeof(d));
 	//input
