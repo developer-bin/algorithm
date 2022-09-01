@@ -23,6 +23,7 @@ int permu_arr[11];
 vector<string> s_v;
 bool visit[10];
 int ans = MIN_VALUE;
+
 void add() {
 	int sum = 0;
 	for (int i = 0; i < s_v.size(); i++) {
@@ -59,6 +60,7 @@ int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	//init
 	//input
 	cin >> n;
