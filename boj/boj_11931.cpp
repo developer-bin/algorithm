@@ -19,6 +19,7 @@ using namespace std;
 int n;
 int a[1000001];
 int tmp_a[1000001];
+
 void merge(int left_l, int left_r, int right_l, int right_r) {
 	int idx = 0;
 	int s_idx = left_l;
@@ -49,6 +50,7 @@ int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	//init
 	//input
 	cin >> n;
