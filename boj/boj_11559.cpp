@@ -22,6 +22,7 @@ bool visit[13][7];
 bool pung_visit[13][7];
 int dx[] = { 0,0,-1,1 };
 int dy[] = { 1,-1,0,0 };
+
 bool boundary(int x, int y) {
 	return x >= 1 && x <= 12 && y >= 1 && y <= 6;
 }
@@ -108,6 +109,7 @@ int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	/*
 	int t;
 	cin >> t;
