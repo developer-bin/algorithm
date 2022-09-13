@@ -18,6 +18,7 @@ int n;
 int t[16];
 int p[16];
 int ans;
+
 void dfs(int idx, int sum) {
 	if (idx > n + 1)return;
 	if (idx == n + 1) {
@@ -31,6 +32,7 @@ int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	//init
 	//input
 	cin >> n;
