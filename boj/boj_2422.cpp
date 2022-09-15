@@ -19,6 +19,7 @@ int n, m;
 bool no[201][201];
 int ans;
 int combi_a[10];
+
 void combi(int idx, int cnt) {
 	if (cnt == 3) {
 		for (int i = 0; i < 2; i++) {
@@ -38,6 +39,7 @@ int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	//init
 	//input
 	cin >> n >> m;
