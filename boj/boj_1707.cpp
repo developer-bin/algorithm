@@ -18,6 +18,7 @@ using namespace std;
 int v, e, t;
 vector<int> graph[20001];
 int visit[20001];
+
 void dfs(int v) {
 	for (int i = 0; i < graph[v].size(); i++) {
 		int n_v = graph[v][i];
@@ -31,6 +32,7 @@ int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	//init
 	//input
 	cin >> t;
