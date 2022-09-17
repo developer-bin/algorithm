@@ -20,10 +20,12 @@ unordered_map<char, int>maps;
 int max_value = MIN_VALUE;
 vector<char> v;
 int c;
+
 int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	//init
 	//input
 	while ((c = getchar()) != EOF) {
