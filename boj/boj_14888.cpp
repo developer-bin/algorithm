@@ -19,6 +19,7 @@ int a[12];
 int cnt[5];
 int max_ans = MIN_VALUE;
 int min_ans = MAX_VALUE;
+
 void dfs(int idx, int sum) {
 	if (idx == n) {
 		max_ans = max(sum, max_ans);
@@ -50,6 +51,7 @@ int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	//init
 	//input
 	cin >> n;
