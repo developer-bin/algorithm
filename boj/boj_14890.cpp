@@ -19,6 +19,7 @@ int maps[101][101];
 bool bridge[101][101];
 int n, l;
 int ans;
+
 bool row_state(int x, int y) {
 	if (y >= n) {
 		return true;
@@ -81,6 +82,7 @@ int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	//init
 	//input
 	cin >> n >> l;
