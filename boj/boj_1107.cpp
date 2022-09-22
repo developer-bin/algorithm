@@ -6,6 +6,7 @@ using namespace std;
 int n,m;
 bool number[10];
 int ans;
+
 pair<bool,int> checking(int num) {
 	int mok=num;
 	int cnt = 0;
@@ -24,6 +25,7 @@ int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	memset(number, true, sizeof(number));
 	cin >> n >> m;
 	for (int i = 1; i <= m; i++) {
