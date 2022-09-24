@@ -18,6 +18,7 @@
 using namespace std;
 string s;
 int result_idx;
+
 pair<int,int> state(int k, int idx, int cnt) {
 	if (idx == (int)s.length())return { cnt,0 };//마지막
 	if (s[idx] == '(') {
@@ -43,6 +44,7 @@ int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	//init
 	//input
 	cin >> s;
