@@ -18,15 +18,17 @@ using namespace std;
 int maps[2][100001];
 int n, k;
 bool visit[2][100001];
+
 struct vertex {
 	int lr; int num; int time;
-	//0Àº left, 1Àº right
+	//0ï¿½ï¿½ left, 1ï¿½ï¿½ right
 };
 queue<vertex> q;
 int main() {
 	/*ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);*/
+
 	//init
 	//input
 	scanf("%d %d", &n, &k);
