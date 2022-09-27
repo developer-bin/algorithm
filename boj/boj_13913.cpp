@@ -16,6 +16,7 @@
 #define ll long long
 using namespace std;
 int n, k;
+
 bool boundary(int x) {
 	return x >= 0 && x <= 200000;
 }
@@ -40,6 +41,7 @@ int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	//init
 	//input
 	cin >> n >> k;
