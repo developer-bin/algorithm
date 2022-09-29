@@ -18,6 +18,7 @@ int maps[10][10];
 int ans = MAX_VALUE;
 bool visit[10][10];
 int paper_cnt[6];
+
 bool checking(int x, int y,int area) {
 	for (int i = x; i < x + area; i++) {
 		for (int j = y; j < y + area; j++) {
@@ -79,6 +80,7 @@ int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	//init
 	//input
 	for (int i = 0; i < 10; i++) {
