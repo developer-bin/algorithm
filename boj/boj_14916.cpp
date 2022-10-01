@@ -16,6 +16,7 @@
 using namespace std;
 int n;
 int d[100001];
+
 int state(int sum) {
 	if (sum > n)return MAX_VALUE;
 	if (sum == n)return 0;
@@ -29,6 +30,7 @@ int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	//init
 	memset(d, -1, sizeof(d));
 	//input
