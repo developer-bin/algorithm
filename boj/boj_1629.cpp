@@ -12,6 +12,7 @@
 #define ll long long
 using namespace std;
 ll a, b, c;
+
 ll f(ll a,ll b) {
 	if (b == 0)return 1;
 	else if (b == 1)return a;
@@ -28,6 +29,7 @@ int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	//input
 	cin >> a >> b >> c;
 	//solve
