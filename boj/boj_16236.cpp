@@ -22,6 +22,7 @@ int dy[] = { 1,-1,0,0 };
 bool visit[21][21];
 int ans;
 int fish_cnt;
+
 struct shark {
 	int x; int y; int size; int eat_cnt; int time;
 };
@@ -83,7 +84,7 @@ void bfs() {
 			}
 		}
 		if (eat_q.size() >= 1) {
-			//¸ÔÀ»°Ô ÀÖÀ½ ¸ÔÀ½
+			//ë¨¹ì„ê²Œ ìžˆìŒ ë¨¹ìŒ
 			int x = eat_q.top().x;
 			int y = eat_q.top().y;
 			int size = eat_q.top().size;
@@ -97,7 +98,7 @@ void bfs() {
 			visit[x][y] = true;
 		}
 		else {
-			//¸ÔÀ»°Å ¾øÀ½ ±×³É ´ÙÀ½À¸·Î °¨
+			//ë¨¹ì„ê±° ì—†ìŒ ê·¸ëƒ¥ ë‹¤ìŒìœ¼ë¡œ ê°
 			q = n_q;
 		}
 	}
@@ -106,6 +107,7 @@ int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	/*
 	int t;
 	cin >> t;
