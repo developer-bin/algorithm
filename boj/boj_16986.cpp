@@ -22,6 +22,7 @@ bool visit[10];
 bool check;
 int idx[4];
 int win[4];
+
 bool boundary(int turn) {
 	if (turn == 1) {
 		if (idx[1] == n)return false;
@@ -88,6 +89,7 @@ int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	//init
 	//input
 	cin >> n >> k;
