@@ -17,10 +17,12 @@
 using namespace std;
 string s;
 bool check[26];
+
 int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	//init
 	check['C' - 'A'] = true;
 	check['A' - 'A'] = true;
