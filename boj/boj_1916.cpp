@@ -14,6 +14,7 @@
 #define MIN_VALUE -200000000
 #define MOD_VALUE 1000000000
 using namespace std;
+
 struct node {
 	int from; int to; int cost;
 };
@@ -25,6 +26,7 @@ int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	/*
 	int t;
 	cin >> t;
