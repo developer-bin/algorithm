@@ -19,10 +19,12 @@ using namespace std;
 int cnt[10];
 int max_cnt[10];
 int ans=MIN_VALUE;
+
 int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	//init
 	//input
 	for (int i = 1; i <= 3; i++) {
