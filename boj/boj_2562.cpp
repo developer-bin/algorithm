@@ -15,6 +15,7 @@
 #define MAX_VALUE 200000000
 #define ll long long
 using namespace std;
+
 struct cmp {
 	bool operator()(pair<int, int> a, pair<int, int> b) {
 		if (a.first < b.first)return true;
@@ -26,6 +27,7 @@ int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	//init
 	//input
 	for (int i = 1; i <= 9; i++) {
