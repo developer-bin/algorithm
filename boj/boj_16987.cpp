@@ -19,6 +19,7 @@ int n;
 int negudo[9];
 int weight[9];
 int ans = 0;
+
 void dfs(int idx,int cnt) {
 	if (idx == n + 1) {
 		ans = max(ans, cnt);
@@ -50,6 +51,7 @@ int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	//init
 	//input
 	cin >> n;
