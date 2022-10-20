@@ -11,6 +11,7 @@ int d[1001];
 int dist[1001];
 int ans;
 int max_idx;
+
 void go(int v) {
 	if (v == -1)return;
 	go(dist[v]);
@@ -32,6 +33,7 @@ int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	//init
 	memset(dist, -1, sizeof(dist));
 	//memset(d, 1, sizeof(d));
