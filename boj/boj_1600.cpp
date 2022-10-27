@@ -19,6 +19,7 @@ int dy[] = { 1,-1,0,0 };
 int hx[] = { -2,-2,-1,-1,1,1,2,2 };
 int hy[] = { -1,1,-2,2,-2,2,-1,1 };
 int n, m, k;
+
 bool boundary(int x, int y) {
 	return x >= 1 && x <= n && y >= 1 && y <= m;
 }
@@ -97,6 +98,7 @@ int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	/*
 	int t;
 	cin >> t;
