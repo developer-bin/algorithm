@@ -13,6 +13,7 @@ string a, b;
 int t;
 bool visit[10000];
 bool eratos[10000];
+
 bool checking(string s) {
 	int check = false;
 	for (int i = 0; i < 4; i++) {
@@ -59,6 +60,7 @@ int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	eratos[0] = eratos[1] = true;
 	for (int i = 2; i < 10000; i++) {
 		if (eratos[i] == false) {
