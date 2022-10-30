@@ -18,6 +18,7 @@ using namespace std;
 ll d[100001][4];
 int n;
 int t;
+
 ll dfs(int sum, int now_num) {
 	if (sum == 0)return 0;
 	if (sum == 1 && now_num == 1)return 1;
@@ -44,6 +45,7 @@ int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+
 	//init
 	memset(d, -1, sizeof(d));
 	//input
